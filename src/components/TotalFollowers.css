@@ -1,0 +1,12 @@
+body .followers {
+  background-color: hsl(222deg, 33%, 94%);
+  height: 14rem;
+  margin-left: 1rem;
+}
+body .followers .followNumber {
+  font-size: 32px;
+  font-weight: bold;
+}
+body .followers .textFollowers {
+  letter-spacing: 6px;
+}/*# sourceMappingURL=TotalFollowers.css.map */
