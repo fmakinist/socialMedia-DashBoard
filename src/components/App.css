@@ -1,4 +1,14 @@
-.App .row {
+.App .cardTotal {
+  margin-left: 12rem;
+  margin-top: 4rem;
+}
+.App .owerview {
+  margin-left: 22rem;
+  margin-top: 5rem;
+}
+.App .cardRow {
+  display: flex;
+  flex-wrap: wrap;
   margin-left: 12rem;
   margin-top: 4rem;
 }/*# sourceMappingURL=App.css.map */

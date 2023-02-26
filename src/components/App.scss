@@ -1,6 +1,23 @@
 .App{
-    .row{
+    .cardTotal{
         margin-left: 12rem;
         margin-top: 4rem;
+        
     }
+    
+
+        .owerview{
+             margin-left: 22rem;
+             margin-top: 5rem;
+        }
+        .cardRow{
+            display: flex;
+            flex-wrap: wrap;
+        margin-left: 12rem;
+        margin-top: 4rem;
+
+
+            
+        }
+    
 }
