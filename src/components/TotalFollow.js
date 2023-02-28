@@ -1,9 +1,9 @@
 import React from 'react'
 import '../components/TotalFollowers.css'
 
-function TotalFollow({follow,userName,icon,signal,numberToday,textColor,border}) {
+function TotalFollow({follow,userName,icon,signal,numberToday,textColor,border,theme}) {
   return (
-    <div className='followers col-lg-2 col-sm-10  mt-2 me-5 ms-4' style={{borderTop: border}}>
+    <div className={`followers col-lg-2 col-sm-10  mt-2 me-5 ms-4  ${theme}`} style={{borderTop: border}}>
      <div className='d-flex mt-3  justify-content-center'>
      {icon}
      <p className='userName ms-2'>{userName}</p>

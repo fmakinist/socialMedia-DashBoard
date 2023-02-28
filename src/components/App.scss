@@ -1,23 +1,38 @@
-.App{
-    .cardTotal{
-        margin-left: 12rem;
-        margin-top: 4rem;
-        
+.App {
+    .headerNav {
+
+        width: 100%;
+        // background-color: hsl(222, 33%, 94%);
     }
-    
 
-        .owerview{
-             margin-left: 22rem;
-             margin-top: 5rem;
-        }
-        .cardRow{
-            display: flex;
-            flex-wrap: wrap;
+    .cardTotal {
         margin-left: 12rem;
         margin-top: 4rem;
 
+    }
 
-            
-        }
-    
+
+    .owerview {
+        margin-left: 22rem;
+        margin-top: 5rem;
+    }
+
+    .cardRow {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 12rem;
+        margin-top: 4rem;
+    }
+
+    .appDarkCard{
+        background-color: hsl(228, 28%, 20%) ;
+        color: #fff;
+    }
+
 }
+
+.appDarkMode {
+    background-color: hsl(230, 17%, 14%);
+    color: #fff;
+}
+

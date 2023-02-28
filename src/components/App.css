@@ -1,3 +1,6 @@
+.App .headerNav {
+  width: 100%;
+}
 .App .cardTotal {
   margin-left: 12rem;
   margin-top: 4rem;
@@ -11,4 +14,13 @@
   flex-wrap: wrap;
   margin-left: 12rem;
   margin-top: 4rem;
+}
+.App .appDarkCard {
+  background-color: hsl(228, 28%, 20%);
+  color: #fff;
+}
+
+.appDarkMode {
+  background-color: hsl(230, 17%, 14%);
+  color: #fff;
 }/*# sourceMappingURL=App.css.map */
