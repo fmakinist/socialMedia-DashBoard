@@ -3,7 +3,7 @@ import '../components/Today.css'
 
 function TodayCard({icon,descr,percentage,signal,number,textColor ,theme}) {
   return (
-    <div className={`followers col-lg-2 col-sm-10  mt-4 me-5 ms-4 ${theme} `}>
+    <div className={`followers col-lg-2 col-sm-7  mt-4 me-5 ms-4 ${theme} `}>
         <div className='d-flex justify-content-around mt-5'>
              <h4 className='text-muted'>{descr}</h4>
              {icon}
